@@ -33,17 +33,6 @@ To force reinstall, in terminal type:
 
 === Usage
 
-<<<<<<< HEAD
-	* You can create or open an existing new Xcode iOS/Mac project.
-	
-	* Click the project in project navigator, then click on "Add Target".
-	
-	* In the template chooser under iOS or Mac OS X, select the "GHUnit" test bundle appropriate for your project.
-	
-	* Enter the name of your new GHUnit unit test bundle.
-	
-	* In Xcode, change the target to your new unit test bundle. Then Build and RUN!
-=======
 1. You can create or open an existing new Xcode iOS/Mac project.
 	
 2. Click the project in project navigator, then click on "Add Target".
@@ -53,21 +42,16 @@ To force reinstall, in terminal type:
 4. Enter the name of your new GHUnit unit test bundle.
 	
 5. In Xcode, change the target to your new unit test bundle. Then Build and RUN!
->>>>>>> Fixed Readme
 
 
 === Adding New Test Cases
 
-<<<<<<< HEAD
-	* When you add a new file to your the Test Cases group, select the new GHUnit/OCMock Test Case file template.  
-=======
 1. When you add a new file to your the Test Cases group, select the new GHUnit/OCMock Test Case file template.  
->>>>>>> Fixed Readme
 
 
 === Contribute
 
-	* I'm sure the templates can be improved.  Please don't hesitate to let me know what can be done.
+I'm sure the templates can be improved.  Please don't hesitate to let me know what can be done.
 
 
 === Special Thanks
