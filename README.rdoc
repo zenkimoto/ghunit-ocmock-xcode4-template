@@ -34,13 +34,9 @@ To force reinstall, in terminal type:
 === Usage
 
 1. You can create or open an existing new Xcode iOS/Mac project.
-	
 2. Click the project in project navigator, then click on "Add Target".
-	
 3. In the template chooser under iOS or Mac OS X, select the "GHUnit" test bundle appropriate for your project.
-	
 4. Enter the name of your new GHUnit unit test bundle.
-	
 5. In Xcode, change the target to your new unit test bundle. Then Build and RUN!
 
 
