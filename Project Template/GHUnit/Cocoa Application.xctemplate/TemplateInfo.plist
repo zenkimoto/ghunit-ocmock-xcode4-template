@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.ghunit.objectiveCApplication</string>
+		<string>com.ghunit.macBase</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.ghunit.cocoaApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Project</key>
+	<dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Release</key>
+			<dict>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Release</key>
+				<dict>
+					<key>VALIDATE_PRODUCT</key>
+					<string>YES</string>
+				</dict>
+			</dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Cocoa</string>
+			</array>
+			<key>OtherFrameworks</key>
+			<array>
+				<string>AppKit</string>
+				<string>CoreData</string>
+				<string>Foundation</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

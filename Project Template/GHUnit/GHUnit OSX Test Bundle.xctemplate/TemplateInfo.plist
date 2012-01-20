@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.ghunit.cocoaApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>TargetOnly</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Info.plist</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>GHUnitTestMain.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>GHUnitTestMain.m</string>
+		</dict>
+		<key>Prefix.pch</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Prefix.pch</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Test Cases/SampleTest.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Test Cases</string>
+			<key>Path</key>
+			<string>Test Cases/SampleTest.m</string>
+		</dict>
+		<key>Frameworks/GHUnit.framework</key>
+		<dict>
+			<key>Group</key>
+			<string>Frameworks</string>
+			<key>Path</key>
+			<string>Frameworks/GHUnit.framework</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This template provides a starting point for any application. It provides just an application delegate and a window.</string>
+	<key>Identifier</key>
+	<string>com.ghunit.osxTestBundle</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist</string>
+		<string>Prefix.pch</string>
+		<string>GHUnitTestMain.m</string>
+		<string>Test Cases/SampleTest.m</string>
+		<string>Frameworks/GHUnit.framework</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>@loader_path/../Frameworks</string>
+			</dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>ShellScript</string>
+					<key>ShellPath</key>
+					<string>/bin/sh</string>
+					<key>ShellScript</key>
+					<string>rsync -r $TARGETNAME/Frameworks/ $TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Frameworks</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

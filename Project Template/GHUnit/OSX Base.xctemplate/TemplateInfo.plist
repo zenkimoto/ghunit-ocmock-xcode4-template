@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.ghunit.macBase</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SDK</key>
+		<string>macosx</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_64_BIT)</string>
+			<key>GCC_VERSION</key>
+			<string>com.apple.compilers.llvm.clang.1_0</string>
+			<key>MACOSX_DEPLOYMENT_TARGET</key>
+			<string>latest_macosx</string>
+			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+			<string>YES</string>
+			<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
+			<string>YES</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
