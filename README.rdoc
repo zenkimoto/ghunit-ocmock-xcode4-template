@@ -1,0 +1,60 @@
+== Xcode 4 GHUnit & OCMock Templates
+
+These templates provide a ready to execute GHUnit Test bundle with (or without) OCMock included in your unit tests.
+
+The templates provided are for both OSX and iOS platforms.
+
+Included versions:
+GHUnit v0.4.33  https://github.com/gabriel/gh-unit
+OCMock v1.77   http://ocmock.org/
+
+
+=== Requirements
+
+* Xcode 4
+
+
+=== Installation Instructions
+
+To install the Xcode 4 templates, in terminal type:
+
+  $ sudo ./install.sh
+
+Note: This script will install the templates to: $HOME/Library/Developer/Xcode/Templates
+
+To remove the Xcode 4 templates, in terminal type:
+
+  $ sudo ./install.sh -u
+
+To force reinstall, in terminal type:
+
+  $ sudo ./install.sh -f
+
+
+=== Usage
+
+	1. You can create or open an existing new Xcode iOS/Mac project.
+	
+	2. Click the project in project navigator, then click on "Add Target".
+	
+	3. In the template chooser under iOS or Mac OS X, select the "GHUnit" test bundle appropriate for your project.
+	
+	4. Enter the name of your new GHUnit unit test bundle.
+	
+	5. In Xcode, change the target to your new unit test bundle. Then Build and RUN!
+
+
+=== Adding New Test Cases
+
+	When you add a new file to your the Test Cases group, select the new GHUnit/OCMock Test Case file template.  
+
+
+=== Contribute
+
+I'm sure the templates can be improved.  Please don't hesitate to let me know what can be done.
+
+
+=== Special Thanks
+
+Special Thanks to Doug Sjoquist, Software Craftsman, for his review of the template.
+http://www.sunetos.com
